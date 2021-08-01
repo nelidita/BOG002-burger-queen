@@ -1,0 +1,18 @@
+.container{
+    display: block;
+    text-align-last: center;
+}
+.container img{
+    width: 400px;
+    margin: 90px;
+}
+.containerBotones{
+    display: block;
+}
+.btn{
+    margin: 40px;
+    font-size: 45px;
+    font-weight: 700;
+    height: 150px;
+    width: 270px;
+}

@@ -1,9 +1,17 @@
-import React, {Fragment} from 'react'
+import React, { Fragment } from 'react'
+import logo from '../img/logo.png'
+import "./inicio.css"
 
-function Inicio () {
+function Inicio() {
   return (
-    <Fragment className= "container">
-      <img src="" alt="" />
+    <Fragment>
+      <div className="container">
+        <img src={logo} />
+        <div className="containerBotones">
+          <button className="btn btn-dark btn-lg ">Mesero</button>
+          <button className="btn btn-dark btn-lg ">Jefe de <br/>Cocina</button>
+        </div>
+      </div>
     </Fragment>
   )
 }
