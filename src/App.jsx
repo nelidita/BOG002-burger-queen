@@ -5,7 +5,7 @@ import NuevoPedido from './components/nuevopedido';
 function App() {
   return (
     <div className="App">
-      <Inicio></Inicio>
+      {/* <Inicio></Inicio> */}
       <NuevoPedido></NuevoPedido>
     </div>
   );
