@@ -1,10 +1,12 @@
 import './App.css';
 import Inicio from './components/inicio'
+import NuevoPedido from './components/nuevopedido';
 
 function App() {
   return (
     <div className="App">
       <Inicio></Inicio>
+      <NuevoPedido></NuevoPedido>
     </div>
   );
 }
