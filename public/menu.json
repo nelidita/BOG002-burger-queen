@@ -1,36 +1,39 @@
-[
-  {
-    "menu": {
-      "desayunos": {
-        "Sandwichs": {
-          "Sandwich de jamón y queso": "10$",
-          "Sandwich de pollo": "12$",
-          "Sandwich de cerdo": "12$"
+{
+  "menu": {
+    "desayunos": {
+      "Sandwichs": {
+        { 
+          "id": 001,
+          "name": "Sandwich de jamón y queso",
+          "price": "10$"
         },
-        "Bebidas": {
-          "Café americano": "5$",
-          "Café con leche": "7$",
-          "jugo natural": "7$"
-        }
+        
+        "Sandwich de pollo": "12$",
+        "Sandwich de cerdo": "12$"
       },
-      "hamburguesas": {
-        "Hamburguesa simple": [
-          "carne",
-          "pollo",
-          "vegetariana"
-        ],
-        "Hamburguesa doble": [
-          "carne",
-          "pollo",
-          "vegetariana"
-        ]
-      },
-      "bebidas": {
-        "Agua 500mL": "5$",
-        "Agua 750mL": "7$",
-        "Gaseosa 500mL": "7$",
-        "Gaseosa 759mL": "10$"
+      "Bebidas": {
+        "Café americano": "5$",
+        "Café con leche": "7$",
+        "jugo natural": "7$"
       }
+    },
+    "hamburguesas": {
+      "Hamburguesa simple": [
+        "carne",
+        "pollo",
+        "vegetariana"
+      ],
+      "Hamburguesa doble": [
+        "carne",
+        "pollo",
+        "vegetariana"
+      ]
+    },
+    "bebidas": {
+      "Agua 500mL": "5$",
+      "Agua 750mL": "7$",
+      "Gaseosa 500mL": "7$",
+      "Gaseosa 759mL": "10$"
     }
   }
-]
+}
