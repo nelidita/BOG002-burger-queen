@@ -1,0 +1,11 @@
+[debug] [2021-07-31T16:59:47.747Z] ----------------------------------------------------------------------
+[debug] [2021-07-31T16:59:47.749Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Laboratoria\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js --debug use --clear
+[debug] [2021-07-31T16:59:47.749Z] CLI Version:   9.16.0
+[debug] [2021-07-31T16:59:47.749Z] Platform:      win32
+[debug] [2021-07-31T16:59:47.749Z] Node Version:  v14.17.4
+[debug] [2021-07-31T16:59:47.750Z] Time:          Sat Jul 31 2021 11:59:47 GMT-0500 (hora estándar de Colombia)
+[debug] [2021-07-31T16:59:47.750Z] ----------------------------------------------------------------------
+[debug] 
+[error] 
+[error] Error: Invalid project id: BQ.
+Note: Project id must be all lowercase.

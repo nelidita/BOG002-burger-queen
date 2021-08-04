@@ -1,39 +1,126 @@
-{
-  "menu": {
-    "desayunos": {
-      "Sandwichs": {
-        { 
-          "id": 001,
-          "name": "Sandwich de jamón y queso",
-          "price": "10$"
-        },
-        
-        "Sandwich de pollo": "12$",
-        "Sandwich de cerdo": "12$"
+[
+  {
+    "desayunos": [
+      {
+        "id": "001",
+        "name": "Sandwich de jamón y queso",
+        "price": "10"
       },
-      "Bebidas": {
-        "Café americano": "5$",
-        "Café con leche": "7$",
-        "jugo natural": "7$"
+      {
+        "id": "002",
+        "name": "Sandwich de pollo",
+        "price": "12"
+      },
+      {
+        "id": "003",
+        "name": "Sandwich de cerdo",
+        "price": "12"
       }
-    },
-    "hamburguesas": {
-      "Hamburguesa simple": [
-        "carne",
-        "pollo",
-        "vegetariana"
-      ],
-      "Hamburguesa doble": [
-        "carne",
-        "pollo",
-        "vegetariana"
-      ]
-    },
-    "bebidas": {
-      "Agua 500mL": "5$",
-      "Agua 750mL": "7$",
-      "Gaseosa 500mL": "7$",
-      "Gaseosa 759mL": "10$"
-    }
+    ],
+    "hamburguesas": [
+      {
+        "id": "004",
+        "name": "Hamburguesa simple de carne",
+        "price": "10",
+        "adicionales": [
+          "huevo",
+          "queso"
+        ]
+      },
+      {
+        "id": "005",
+        "name": "Hamburguesa simple de pollo",
+        "price": "10",
+        "adicionales": [
+          "huevo",
+          "queso"
+        ]
+      },
+      {
+        "id": "006",
+        "name": "Hamburguesa simple vegetariana",
+        "price": "10",
+        "adicionales": [
+          "huevo",
+          "queso"
+        ]
+      },
+      {
+        "id": "007",
+        "name": "Hamburguesa doble de carne",
+        "price": "12",
+        "adicionales": [
+          "huevo",
+          "queso"
+        ]
+      },
+      {
+        "id": "008",
+        "name": "Hamburguesa doble de pollo",
+        "price": "12",
+        "adicionales": [
+          "huevo",
+          "queso"
+        ]
+      },
+      {
+        "id": "009",
+        "name": "Hamburguesa doble vegetariana",
+        "price": "12",
+        "adicionales": [
+          "huevo",
+          "queso"
+        ]
+      }
+    ],
+    "bebidas": [
+      {
+        "id": "010",
+        "name": "Agua 500mL",
+        "price": "5"
+      },
+      {
+        "id": "011",
+        "name": "Agua 750mL",
+        "price": "7"
+      },
+      {
+        "id": "012",
+        "name": "Gaseosa 500mL",
+        "price": "7"
+      },
+      {
+        "id": "013",
+        "name": "Gaseosa 750mL",
+        "price": "10"
+      },
+      {
+        "id": "014",
+        "name": "Café americano",
+        "price": "5"
+      },
+      {
+        "id": "015",
+        "name": "Capuccino",
+        "price": "7"
+      },
+      {
+        "id": "016",
+        "name": "Jugo Natural",
+        "price": "7"
+      }
+    ],
+    "acompañamiento": [
+      {
+        "id": "017",
+        "name": "Papas a la francesa",
+        "price": "5"
+      },
+      {
+        "id": "018",
+        "name": "Aros de cebolla",
+        "price": "5"
+      }
+    ]
   }
-}
+]
