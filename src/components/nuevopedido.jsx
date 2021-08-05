@@ -14,6 +14,11 @@ function NuevoPedido() {
 
   }, [])
 
+  const arrayItemsDesayunos = []
+  const itemsDesayunos = item => item.desayuno.map(desayuno => arrayItemsDesayunos.push(desayuno))
+
+
+
   return (
     <Fragment>
       <div className="container">
@@ -31,9 +36,7 @@ function NuevoPedido() {
         <div className="desayunos">
             {
               Object.keys(menu).map(item => (
-                <button key={item}>
-                  {item[name]}
-                </button>
+                <input key={item} className="btn btn-black" value={ itemsDesayunos } type="submit"/>
               ))
             }
         </div>
