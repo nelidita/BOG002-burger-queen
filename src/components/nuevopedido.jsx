@@ -10,14 +10,25 @@ function NuevoPedido() {
 
     fetch('./menu.json')
       .then(response => response.json())
-      .then((data) =>setMenu(data[0]))
+      .then((data) => setMenu(data[0]))
 
   }, [])
 
-  const arrayItemsDesayunos = []
-  const itemsDesayunos = item => item.desayuno.map(desayuno => arrayItemsDesayunos.push(desayuno))
+  // const arrayItemsDesayunos = []
+  // const itemsDesayunos = item => item.forEach(desayuno => {console.log(desayuno)})
+
+  // const itemsMenu = JSON.stringify(menu.forEach(item => console.log(item)))
+  // console.log(itemsMenu)
+
+  const itemsMenu = (object) => {
+    for (const property in object) {
+      console.log(`${property}: ${object[desayunos]}`);
+    }
+  }
+  itemsMenu(menu)
 
 
+  // console.log(menu.desayunos)
 
   return (
     <Fragment>
@@ -34,11 +45,14 @@ function NuevoPedido() {
           <button className="btnMenu btn-dark btn-lg ">Hamburguesas</button>
         </div>
         <div className="desayunos">
+          <form className="form-group">
             {
-              Object.keys(menu).map(item => (
-                <input key={item} className="btn btn-black" value={ itemsDesayunos } type="submit"/>
-              ))
+              // menu.map(item => console.log(item))
+              //  (
+              // <input key={item} className="form-control m-3" value={itemsDesayunos(item)} type="button"/>
+              // ))
             }
+          </form>
         </div>
       </div>
     </Fragment>
