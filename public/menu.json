@@ -1,23 +1,23 @@
 {
   "desayunos": {
-    "Sandwich de jamón y queso": {
+    "jamonQueso": {
       "id": "001",
       "name": "Sandwich de jamón y queso",
       "price": "10"
     },
-    "Sandwich de pollo":{
+    "pollo":{
       "id": "002",
       "name": "Sandwich de pollo",
       "price": "12"
     },
-    "Sandwich de cerdo":{
+    "cerdo":{
       "id": "003",
       "name": "Sandwich de cerdo",
       "price": "12"
     }
   },
   "hamburguesas": {
-    "Hamburguesa simple de carne":{
+    "simpleCarne":{
       "id": "004",
       "name": "Hamburguesa simple de carne",
       "price": "10",
@@ -26,7 +26,7 @@
         "queso"
       ]
     },
-    "Hamburguesa simple de pollo":{
+    "simplePollo":{
       "id": "005",
       "name": "Hamburguesa simple de pollo",
       "price": "10",
@@ -35,7 +35,7 @@
         "queso"
       ]
     },
-    "Hamburguesa simple vegetariana":{
+    "simpleVegetariana":{
       "id": "006",
       "name": "Hamburguesa simple vegetariana",
       "price": "10",
@@ -44,7 +44,7 @@
         "queso"
       ]
     },
-    "Hamburguesa doble de carne":{
+    "dobleCarne":{
       "id": "007",
       "name": "Hamburguesa doble de carne",
       "price": "12",
@@ -53,7 +53,7 @@
         "queso"
       ]
     },
-    "Hamburguesa doble de pollo":{
+    "doblePollo":{
       "id": "008",
       "name": "Hamburguesa doble de pollo",
       "price": "12",
@@ -62,7 +62,7 @@
         "queso"
       ]
     },
-    "Hamburguesa doble vegetariana":{
+    "dobleVegetariana":{
       "id": "009",
       "name": "Hamburguesa doble vegetariana",
       "price": "12",
@@ -73,27 +73,27 @@
     }
   },
   "bebidas": {
-    "Agua 500mL":{
+    "Agua500mL":{
       "id": "010",
       "name": "Agua 500mL",
       "price": "5"
     },
-    "Agua 750mL":{
+    "Agua750mL":{
       "id": "011",
       "name": "Agua 750mL",
       "price": "7"
     },
-    "Gaseosa 500mL":{
+    "Gaseosa500mL":{
       "id": "012",
       "name": "Gaseosa 500mL",
       "price": "7"
     },
-    "Gaseosa 750mL":{
+    "Gaseosa750mL":{
       "id": "013",
       "name": "Gaseosa 750mL",
       "price": "10"
     },
-    "Café americano":{
+    "Cafeamericano":{
       "id": "014",
       "name": "Café americano",
       "price": "5"
@@ -103,19 +103,19 @@
       "name": "Capuccino",
       "price": "7"
     },
-    "Jugo Natural":{
+    "JugoNatural":{
       "id": "016",
       "name": "Jugo Natural",
       "price": "7"
     }
   },
   "acompañamiento": {
-    "Papas a la francesa":{
+    "Papasfrancesa":{
       "id": "017",
       "name": "Papas a la francesa",
       "price": "5"
     },
-    "Aros de cebolla":{
+    "Aroscebolla":{
       "id": "018",
       "name": "Aros de cebolla",
       "price": "5"

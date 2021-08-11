@@ -1,11 +1,13 @@
 import './App.css';
 import Inicio from './components/inicio'
+import Mesero from './components/mesero';
 import NuevoPedido from './components/nuevopedido';
 
 function App() {
   return (
     <div className="App">
-      {/* <Inicio></Inicio> */}
+      {/* <Inicio/> */}
+      {/* <Mesero/> */}
       <NuevoPedido/>
     </div>
   );

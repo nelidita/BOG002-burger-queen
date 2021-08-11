@@ -8,8 +8,8 @@ function Mesero() {
       <div className="container">
         <img src={logo} />
         <div className="containerBotones">
-          <button className="btn btn-dark btn-lg ">Nuevo<br/>pedido</button>
-          <button className="btn btn-dark btn-lg ">Lista de<br/>pedidos</button>
+          <button className="btnInicio btn-dark btn-lg ">Nuevo<br/>pedido</button>
+          <button className="btnInicio btn-dark btn-lg ">Lista de<br/>pedidos</button>
         </div>
       </div>
     </Fragment>

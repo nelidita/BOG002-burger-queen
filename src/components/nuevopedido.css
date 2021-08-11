@@ -1,0 +1,26 @@
+.containerNuevoPedido{
+  text-align: center;
+}
+
+.logoNuevoPedido{
+  width: 150px;
+  margin: 10px;
+}
+
+#containerTabla{
+  margin: 20px;
+}
+#divProductosMenu{
+  display: grid;
+}
+.containerNuevoPedido h2{
+  font-weight: bold;
+}
+
+.btn{
+  background-color: #3C1504;
+  font-weight: bold;
+  font-size: 26px;
+  color: #FFFBD8;
+}
+

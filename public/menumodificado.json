@@ -1,0 +1,134 @@
+[
+  {
+    "id": "001",
+    "name": "Sandwich de jamón y queso",
+    "price": "10",
+    "type": "desayuno"
+  },
+  {
+    "id": "002",
+    "name": "Sandwich de pollo",
+    "price": "12",
+    "type": "desayuno"
+  },
+  {
+    "id": "003",
+    "name": "Sandwich de cerdo",
+    "price": "12",
+    "type": "desayuno"
+  },
+  {
+    "id": "004",
+    "name": "Hamburguesa simple de carne",
+    "price": "10",
+    "adicionales": [
+      "huevo",
+      "queso"
+    ],
+    "type": "hamburguesa"
+  },
+  {
+    "id": "005",
+    "name": "Hamburguesa simple de pollo",
+    "price": "10",
+    "adicionales": [
+      "huevo",
+      "queso"
+    ],
+    "type": "hamburguesa"
+  },
+  {
+    "id": "006",
+    "name": "Hamburguesa simple vegetariana",
+    "price": "10",
+    "adicionales": [
+      "huevo",
+      "queso"
+    ],
+    "type": "hamburguesa"
+  },
+  {
+    "id": "007",
+    "name": "Hamburguesa doble de carne",
+    "price": "12",
+    "adicionales": [
+      "huevo",
+      "queso"
+    ],
+    "type": "hamburguesa"
+  },
+  {
+    "id": "008",
+    "name": "Hamburguesa doble de pollo",
+    "price": "12",
+    "adicionales": [
+      "huevo",
+      "queso"
+    ],
+    "type": "hamburguesa"
+  },
+  {
+    "id": "009",
+    "name": "Hamburguesa doble vegetariana",
+    "price": "12",
+    "adicionales": [
+      "huevo",
+      "queso"
+    ],
+    "type": "hamburguesa"
+  },
+  {
+    "id": "010",
+    "name": "Agua 500mL",
+    "price": "5",
+    "type": "bebidas"
+  },
+  {
+    "id": "011",
+    "name": "Agua 750mL",
+    "price": "7",
+    "type": "bebidas"
+  },
+  {
+    "id": "012",
+    "name": "Gaseosa 500mL",
+    "price": "7",
+    "type": "bebidas"
+  },
+  {
+    "id": "013",
+    "name": "Gaseosa 750mL",
+    "price": "10",
+    "type": "bebidas"
+  },
+  {
+    "id": "014",
+    "name": "Café americano",
+    "price": "5",
+    "type": "bebidas"
+  },
+  {
+    "id": "015",
+    "name": "Capuccino",
+    "price": "7",
+    "type": "bebidas"
+  },
+  {
+    "id": "016",
+    "name": "Jugo Natural",
+    "price": "7",
+    "type": "bebidas"
+  },
+  {
+    "id": "017",
+    "name": "Papas a la francesa",
+    "price": "5",
+    "type": "acompañamientos"
+  },
+  {
+    "id": "018",
+    "name": "Aros de cebolla",
+    "price": "5",
+    "type": "acompañamientos"
+  }
+]
